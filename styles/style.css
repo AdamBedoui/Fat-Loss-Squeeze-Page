@@ -1354,7 +1354,8 @@ span {
     display: flex;
     align-items: end;
   }
-  #work {
+  #work,
+  #banner {
     background-attachment: fixed;
   }
   .footer-detail h3 {
