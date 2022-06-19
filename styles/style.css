@@ -727,6 +727,7 @@ span {
   padding: 80px 0;
   color: #ffffff;
 }
+
 .work_block p {
   color: #ffffff;
 }
@@ -760,7 +761,6 @@ span {
   text-transform: inherit;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  text-align: left;
 }
 .footer-detail a {
   transition: all 0.3s ease 0s;
@@ -1589,4 +1589,24 @@ span {
       format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-detail h3 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .banner-row {
+    display: flex;
+    align-items: end;
+  }
+  #work {
+    background-attachment: fixed;
+  }
+
+  .footer-detail h3 {
+    text-align: left;
+  }
 }
